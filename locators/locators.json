@@ -1,0 +1,38 @@
+[
+  {
+    "pageName": "GooglePage",
+    "name": "search_button",
+    "locateUsing": "xpath",
+    "locator": "(//input[@name='btnK'])[2]"
+  },
+  {
+    "pageName": "GooglePage",
+    "name": "search_box",
+    "locateUsing": "xpath",
+    "locator": "//textarea[@name='q']"
+  },
+  {
+    "pageName": "LoginPage",
+    "name": "input_email",
+    "locateUsing": "xpath",
+    "locator": "//input[@id='user_email']"
+  },
+  {
+    "pageName": "LoginPage",
+    "name": "input_password",
+    "locateUsing": "xpath",
+    "locator": "//input[@id='user_password']"
+  },
+  {
+    "pageName": "LoginPage",
+    "name": "btn_login",
+    "locateUsing": "xpath",
+    "locator": "//input[@value='Log In']"
+  },
+  {
+    "pageName": "LoggedInPage",
+    "name": "input_search",
+    "locateUsing": "xpath",
+    "locator": "//input[@id='search-courses']"
+  }
+]

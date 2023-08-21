@@ -1,0 +1,44 @@
+08/20/2023 09:04:27 PM - HomeNavigation - INFO: Element found with locator: //a[contains(text(),'Login')] and locatorType: xpath
+08/20/2023 09:04:27 PM - HomeNavigation - INFO: clicked on element with locator: //a[contains(text(),'Login')] locatorType: xpath
+08/20/2023 09:04:27 PM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: navigation to login page failed
+08/20/2023 09:04:45 PM - LoginPage - ERROR: Element not found with locator: //input[@id='user_email'] and locatorType: xpath
+08/20/2023 09:04:45 PM - LoginPage - ERROR: cannot send data on the element with locator: //input[@id='user_email'] locatorType: xpath
+08/20/2023 09:05:00 PM - LoginPage - ERROR: Element not found with locator: //input[@id='user_password'] and locatorType: xpath
+08/20/2023 09:05:00 PM - LoginPage - ERROR: cannot send data on the element with locator: //input[@id='user_password'] locatorType: xpath
+08/20/2023 09:05:15 PM - LoginPage - ERROR: Element not found with locator: //input[@value='Log In'] and locatorType: xpath
+08/20/2023 09:05:15 PM - LoginPage - ERROR: cannot click on the element with locator: //input[@value='Log In'] locatorType: xpath
+08/20/2023 09:05:30 PM - LoggedInPage - INFO: Element list found with locator: //input[@id='search-courses'] and locatorType: xpath
+08/20/2023 09:05:30 PM - TestStatus - ERROR: ### VERIFICATION FAILED :: login failed
+08/20/2023 09:05:31 PM - TestStatus - INFO: Screenshot save to directory: C:\Users\MAHABOOB_SHAIK\Hackathon\Python-Test-Automation-Framework-master\Python-Test-Automation-Framework-master\base\../screenshots/login failed.1692545730683.png
+08/20/2023 09:06:08 PM - HomeNavigation - INFO: Element found with locator: //a[contains(text(),'Login')] and locatorType: xpath
+08/20/2023 09:06:08 PM - HomeNavigation - INFO: clicked on element with locator: //a[contains(text(),'Login')] locatorType: xpath
+08/20/2023 09:06:08 PM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: navigation to login page failed
+08/20/2023 09:06:23 PM - LoginPage - ERROR: Element not found with locator: //input[@id='user_email'] and locatorType: xpath
+08/20/2023 09:06:23 PM - LoginPage - ERROR: cannot send data on the element with locator: //input[@id='user_email'] locatorType: xpath
+08/20/2023 09:06:38 PM - LoginPage - ERROR: Element not found with locator: //input[@id='user_password'] and locatorType: xpath
+08/20/2023 09:06:38 PM - LoginPage - ERROR: cannot send data on the element with locator: //input[@id='user_password'] locatorType: xpath
+08/20/2023 09:06:53 PM - LoginPage - ERROR: Element not found with locator: //input[@value='Log In'] and locatorType: xpath
+08/20/2023 09:06:53 PM - LoginPage - ERROR: cannot click on the element with locator: //input[@value='Log In'] locatorType: xpath
+08/20/2023 09:07:04 PM - LoggedInPage - INFO: Element list found with locator: //input[@id='search-courses'] and locatorType: xpath
+08/20/2023 09:07:04 PM - TestStatus - ERROR: ### VERIFICATION FAILED :: login failed
+08/20/2023 09:07:04 PM - TestStatus - ERROR: ### Exception Occurred when taking screenshot
+08/20/2023 09:09:48 PM - HomeNavigation - INFO: Element found with locator: //a[contains(text(),'Login')] and locatorType: xpath
+08/20/2023 09:09:48 PM - HomeNavigation - INFO: clicked on element with locator: //a[contains(text(),'Login')] locatorType: xpath
+08/20/2023 09:09:48 PM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: navigation to login page failed
+08/20/2023 09:10:05 PM - LoginPage - ERROR: Element not found with locator: //input[@id='user_email'] and locatorType: xpath
+08/20/2023 09:10:05 PM - LoginPage - ERROR: cannot send data on the element with locator: //input[@id='user_email'] locatorType: xpath
+08/20/2023 09:10:21 PM - LoginPage - ERROR: Element not found with locator: //input[@id='user_password'] and locatorType: xpath
+08/20/2023 09:10:21 PM - LoginPage - ERROR: cannot send data on the element with locator: //input[@id='user_password'] locatorType: xpath
+08/20/2023 09:10:36 PM - LoginPage - ERROR: Element not found with locator: //input[@value='Log In'] and locatorType: xpath
+08/20/2023 09:10:36 PM - LoginPage - ERROR: cannot click on the element with locator: //input[@value='Log In'] locatorType: xpath
+08/20/2023 09:10:50 PM - LoggedInPage - INFO: Element list found with locator: //input[@id='search-courses'] and locatorType: xpath
+08/20/2023 09:10:50 PM - TestStatus - ERROR: ### VERIFICATION FAILED :: login failed
+08/20/2023 09:10:50 PM - TestStatus - ERROR: ### Exception Occurred when taking screenshot
+08/20/2023 09:36:24 PM - LoginPage - INFO: Element found with locator: //textarea[@name='q'] and locatorType: xpath
+08/20/2023 09:36:25 PM - LoginPage - INFO: send data on element with locator: //textarea[@name='q'] locatorType: xpath
+08/20/2023 09:36:25 PM - LoginPage - INFO: Element found with locator: (//input[@name='btnK'])[2] and locatorType: xpath
+08/20/2023 09:36:25 PM - LoginPage - INFO: clicked on element with locator: (//input[@name='btnK'])[2] locatorType: xpath
+08/20/2023 10:17:33 PM - LoginPage - INFO: Element found with locator: //textarea[@name='q'] and locatorType: xpath
+08/20/2023 10:17:33 PM - LoginPage - INFO: send data on element with locator: //textarea[@name='q'] locatorType: xpath
+08/20/2023 10:17:33 PM - LoginPage - INFO: Element found with locator: (//input[@name='btnK'])[2] and locatorType: xpath
+08/20/2023 10:17:34 PM - LoginPage - INFO: clicked on element with locator: (//input[@name='btnK'])[2] locatorType: xpath
