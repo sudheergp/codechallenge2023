@@ -1,0 +1,7 @@
+https://twitter.com/i/flow/login
+
+//*[@autocomplete="username"]
+//*[@autocomplete="current-password"]
+//*[@data-testid="LoginForm_Login_Button"]
+
+(//*[text() = "Post"])[1]
