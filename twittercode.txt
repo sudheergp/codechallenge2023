@@ -1,0 +1,43 @@
+from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
+import time
+
+# Replace these with your actual Twitter credentials
+username = "your_username"
+password = "your_password"
+tweet_text = "Hello, this is a test tweet using Selenium!"
+
+# Set up the WebDriver (make sure to provide the path to your WebDriver executable)
+driver = webdriver.Chrome(executable_path='path_to_chromedriver.exe')
+
+# Open Twitter login page
+driver.get("https://twitter.com/login")
+
+# Wait for elements to load
+time.sleep(2)
+
+# Find username and password input fields and fill them
+username_field = driver.find_element_by_name("session[username_or_email]")
+password_field = driver.find_element_by_name("session[password]")
+username_field.send_keys(username)
+password_field.send_keys(password)
+
+# Submit the login form
+password_field.send_keys(Keys.RETURN)
+
+# Wait for the logged-in page to load
+time.sleep(3)
+
+# Find the tweet input field and post the tweet
+tweet_input = driver.find_element_by_css_selector("div[aria-label='Tweet text']")
+tweet_input.send_keys(tweet_text)
+
+# Find the tweet button and click it
+tweet_button = driver.find_element_by_css_selector("div[data-testid='tweetButtonInline']")
+tweet_button.click()
+
+# Wait for a moment to let the tweet be posted
+time.sleep(2)
+
+# Close the browser
+driver.quit()
